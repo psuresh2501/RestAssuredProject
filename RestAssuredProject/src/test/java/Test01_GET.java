@@ -10,7 +10,7 @@ public class Test01_GET {
 		Response response = RestAssured.get("https://reqres.in/api/users?page=2");
 		
 		System.out.println(response.getStatusCode());
-		//System.out.println(response.getBody());
+		System.out.println(response.getBody());
 
 	}
 }
